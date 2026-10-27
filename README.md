@@ -1,6 +1,16 @@
-# Team Scorekeeper — Basketball V2
+# Team Scorekeeper — Basketball V2.1 (Example Team)
 
 A courtside basketball scorekeeper for the Naches Learning Hub, designed for middle-school student managers and coaches. A/B/C squad roster management, match statistics, and season reports are included.
+
+## Try the fictional example first
+
+Click **Try example team** (top right) to create **Cedar Valley Wildcats · Practice Team** as a separate program. This includes **24 fictional players** divided into A/B/C squads, several opposing rosters, three completed games, and one in-progress game for practice.
+
+- Use **Practice live game** to tap a home or visitor jersey and record shots, rebounds, assists, etc. Score and event history update instantly.
+- Use **See sample reports** to explore statistics and charts.
+- Use **Reset example** to discard practice changes and reload the starting example. Resetting affects only the demo program; it does not delete real teams.
+- The **Program / season** selector returns to your own teams. The example is never automatically loaded over your information.
+- All example names, game scores, and dates are fictional. Avoid including the demo in actual team reports.
 
 ## Game Day workflow
 
@@ -29,3 +39,7 @@ Upload `index.html` at the root of your `team-scorekeeper` GitHub repository, th
 ## Important data and reliability notes
 
 All data is stored only in the browser's `localStorage`, **not** automatically in a signed-in Google account or Google Drive. The system is not synchronized across devices and offers no password-based access controls. Back up data regularly and follow your school's requirements for handling player information and exports. This is a coaching statistics assistant, not an official game-clock or certified scorebook system. Do not rely on it as the sole record of a game.
+
+## Team & Season Settings
+
+The roster page has a collapsed **Manage team or season** section under **Team & season settings**. Opening it gives access to **Edit Team/Season Details** (changes only the display name and season) and **Delete Team/Season Data** (erases all rosters, games, and statistics in that one team/season). Deletion requires a confirmation plus typing `DELETE`. Export a full JSON backup before attempting to remove a team/season. This is not an authentication control: anyone with access to the same browser profile can use these options.
